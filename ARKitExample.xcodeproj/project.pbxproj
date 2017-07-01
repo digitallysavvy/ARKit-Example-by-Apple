@@ -29,6 +29,9 @@
 		C490DAC41E9AB63400210960 /* VirtualObjectSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C490DAC31E9AB63400210960 /* VirtualObjectSelectionViewController.swift */; };
 		C4E87DD91EA6B40F002117D6 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E87DD81EA6B40F002117D6 /* VirtualObject.swift */; };
 		C4FBC02B1EC6438B003F7864 /* ARCameraTrackingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FBC02A1EC6438B003F7864 /* ARCameraTrackingState.swift */; };
+		FA91F5A71F07E56A00A67970 /* Elvis.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F5A41F07E56A00A67970 /* Elvis.swift */; };
+		FA91F5A81F07E56A00A67970 /* Zombie.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F5A51F07E56A00A67970 /* Zombie.swift */; };
+		FA91F5A91F07E56A00A67970 /* Granny.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA91F5A61F07E56A00A67970 /* Granny.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		C4E87DD81EA6B40F002117D6 /* VirtualObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VirtualObject.swift; path = ../VirtualObject.swift; sourceTree = "<group>"; };
 		C4FBC02A1EC6438B003F7864 /* ARCameraTrackingState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARCameraTrackingState.swift; sourceTree = "<group>"; };
 		C7F76951F8992F473202F831 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		FA91F5A41F07E56A00A67970 /* Elvis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Elvis.swift; path = "../../../ARKit-Example-Moji-Port/ARKitExample/Virtual Objects/Elvis.swift"; sourceTree = "<group>"; };
+		FA91F5A51F07E56A00A67970 /* Zombie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Zombie.swift; path = "../../../ARKit-Example-Moji-Port/ARKitExample/Virtual Objects/Zombie.swift"; sourceTree = "<group>"; };
+		FA91F5A61F07E56A00A67970 /* Granny.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Granny.swift; path = "../../../ARKit-Example-Moji-Port/ARKitExample/Virtual Objects/Granny.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +147,9 @@
 				C40FE5251EC239F100732B01 /* Cup.swift */,
 				C40FE5261EC239F100732B01 /* Lamp.swift */,
 				C40FE5281EC239F100732B01 /* Vase.swift */,
+				FA91F5A41F07E56A00A67970 /* Elvis.swift */,
+				FA91F5A61F07E56A00A67970 /* Granny.swift */,
+				FA91F5A51F07E56A00A67970 /* Zombie.swift */,
 			);
 			path = "Virtual Objects";
 			sourceTree = "<group>";
@@ -185,7 +194,7 @@
 				TargetAttributes = {
 					3929C4871E89EC2C00E00B60 = {
 						CreatedOnToolsVersion = 9.0;
-						DevelopmentTeam = Z27YUCTD32;
+						DevelopmentTeam = WC65ELHV6C;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
@@ -237,13 +246,16 @@
 				C40FE52E1EC239F100732B01 /* Vase.swift in Sources */,
 				392BB82C1EA19A7C00FBBAC8 /* Plane.swift in Sources */,
 				3987BEDC1E9E057F00167FAC /* Gesture.swift in Sources */,
+				FA91F5A81F07E56A00A67970 /* Zombie.swift in Sources */,
 				C4E87DD91EA6B40F002117D6 /* VirtualObject.swift in Sources */,
 				C40FE5291EC239F100732B01 /* Candle.swift in Sources */,
 				39D4A8BE1EA1AF530006EC65 /* PlaneDebugVisualization.swift in Sources */,
+				FA91F5A71F07E56A00A67970 /* Elvis.swift in Sources */,
 				39C0B9591E9C6B1F003FCA0C /* SettingsViewController.swift in Sources */,
 				C490DAC41E9AB63400210960 /* VirtualObjectSelectionViewController.swift in Sources */,
 				C42A71BD1E9C0AF200944367 /* FocusSquare.swift in Sources */,
 				3929C48C1E89EC2C00E00B60 /* AppDelegate.swift in Sources */,
+				FA91F5A91F07E56A00A67970 /* Granny.swift in Sources */,
 				C4FBC02B1EC6438B003F7864 /* ARCameraTrackingState.swift in Sources */,
 				C40FE52C1EC239F100732B01 /* Lamp.swift in Sources */,
 			);
@@ -368,7 +380,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z27YUCTD32;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
 				INFOPLIST_FILE = ARKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -388,7 +400,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Z27YUCTD32;
+				DEVELOPMENT_TEAM = WC65ELHV6C;
 				INFOPLIST_FILE = ARKitExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

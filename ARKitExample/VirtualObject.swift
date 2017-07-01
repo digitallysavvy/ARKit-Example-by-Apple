@@ -93,7 +93,10 @@ extension VirtualObject {
 		Cup(),
 		Vase(),
 		Lamp(),
-		Chair()
+		Chair(),
+        Elvis(),
+        Granny(),
+        Zombie()
 	]
 }
 
